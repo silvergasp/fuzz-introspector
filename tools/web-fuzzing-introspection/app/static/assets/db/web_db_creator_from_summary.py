@@ -415,7 +415,7 @@ def extract_project_data(project_name, date_str, should_include_details,
                         function_blocked,
                         'blocked_runtime_coverage':
                         blocked_unique_not_covered_complexity,
-                        'source_file':
+                        'src_file':
                         branch_blocker.get('source_file', "N/A"),
                         'linenumber':
                         branch_blocker.get('branch_line_number', -1),

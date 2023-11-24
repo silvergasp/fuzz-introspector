@@ -66,7 +66,7 @@
         "function_name": string,
         "raw_function_name": string,
         "return_type": string,
-        "source_file": string,
+        "src_file": string,
       } ],
       "src_file": string,
     } ],
@@ -96,7 +96,7 @@
                         "function_name": "json_tokener_new",
                         "raw_function_name": "json_tokener_new",
                         "return_type": "struct.json_tokener *",
-                        "source_file": "/src/json-c/json_tokener.c"
+                        "src_file": "/src/json-c/json_tokener.c"
                     },
                     {
                         "accummulated_cyclomatic_complexity": 688,
@@ -114,7 +114,7 @@
                         "function_name": "json_tokener_parse_ex",
                         "raw_function_name": "json_tokener_parse_ex",
                         "return_type": "struct.json_object *",
-                        "source_file": "/src/json-c/json_tokener.c"
+                        "src_file": "/src/json-c/json_tokener.c"
                     },
                     {
                         "accummulated_cyclomatic_complexity": 32,
@@ -128,7 +128,7 @@
                         "function_name": "json_object_put",
                         "raw_function_name": "json_object_put",
                         "return_type": "int",
-                        "source_file": "/src/json-c/json_object.c"
+                        "src_file": "/src/json-c/json_object.c"
                     },
                     {
                         "accummulated_cyclomatic_complexity": 41,
@@ -142,7 +142,7 @@
                         "function_name": "json_tokener_free",
                         "raw_function_name": "json_tokener_free",
                         "return_type": "void",
-                        "source_file": "/src/json-c/json_tokener.c"
+                        "src_file": "/src/json-c/json_tokener.c"
                     }
                 ],
                 "fuzzer_name": "tokener_parse_ex_fuzzer",
@@ -293,7 +293,7 @@ $ curl -L https://introspector.oss-fuzz.com/api/far-reach-but-low-coverage?proje
         "function_name": string,
         "raw_function_name": string,
         "return_type": string,
-        "source_file": string,
+        "src_file": string,
       } ],
       "src_file": string,
     } ],
@@ -346,7 +346,7 @@ $ curl -L https://introspector.oss-fuzz.com/api/project-summary?project=json-c |
                           "function_name": "json_tokener_new",
                           "raw_function_name": "json_tokener_new",
                           "return_type": "struct.json_tokener *",
-                          "source_file": "/src/json-c/json_tokener.c"
+                          "src_file": "/src/json-c/json_tokener.c"
                       },
                       {
                           "accummulated_cyclomatic_complexity": 688,
@@ -364,7 +364,7 @@ $ curl -L https://introspector.oss-fuzz.com/api/project-summary?project=json-c |
                           "function_name": "json_tokener_parse_ex",
                           "raw_function_name": "json_tokener_parse_ex",
                           "return_type": "struct.json_object *",
-                          "source_file": "/src/json-c/json_tokener.c"
+                          "src_file": "/src/json-c/json_tokener.c"
                       },                                                                                                                                            {
                        ...
                   ],
@@ -382,7 +382,7 @@ $ curl -L https://introspector.oss-fuzz.com/api/project-summary?project=json-c |
                   "function_name": "json_c_get_random_seed",
                   "linenumber": "336",
                   "project": "json-c",
-                  "source_file": "/src/json-c/random_seed.c"
+                  "src_file": "/src/json-c/random_seed.c"
               },
               ...
           ],
@@ -426,7 +426,7 @@ $ curl -L https://introspector.oss-fuzz.com/api/project-summary?project=json-c |
   "project_blockers": [ {
     "project_name": string,
     "function_name": string,
-    "source_file": string,
+    "src_file": string,
     "src_linenumber": string,
     "unique_blocked_coverage": integer,
     "blocked_unique_functions": [string],
@@ -454,7 +454,7 @@ $ curl -L https://introspector.oss-fuzz.com/api/branch-blockers?project=json-c |
           ],
           "function_name": "json_c_get_random_seed",
           "project_name": "json-c",
-          "source_file": "/src/json-c/random_seed.c",
+          "src_file": "/src/json-c/random_seed.c",
           "src_linenumber": "336",
           "unique_blocked_coverage": 35
       },
@@ -465,7 +465,7 @@ $ curl -L https://introspector.oss-fuzz.com/api/branch-blockers?project=json-c |
           ],
           "function_name": "get_getrandom_seed",
           "project_name": "json-c",
-          "source_file": "/src/json-c/random_seed.c",
+          "src_file": "/src/json-c/random_seed.c",
           "src_linenumber": "190",
           "unique_blocked_coverage": 19
       },
@@ -475,7 +475,7 @@ $ curl -L https://introspector.oss-fuzz.com/api/branch-blockers?project=json-c |
           ],
           "function_name": "json_object_array_shrink",
           "project_name": "json-c",
-          "source_file": "/src/json-c/json_object.c",
+          "src_file": "/src/json-c/json_object.c",
           "src_linenumber": "1566",
           "unique_blocked_coverage": 7
       }

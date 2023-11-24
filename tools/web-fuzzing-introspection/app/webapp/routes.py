@@ -508,7 +508,7 @@ def branch_blockers():
                 blocker.project_name,
                 'function_name':
                 blocker.function_name,
-                'source_file':
+                'src_file':
                 blocker.source_file,
                 'src_linenumber':
                 blocker.src_linenumber,
